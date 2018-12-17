@@ -32,3 +32,5 @@ class Solution:
             arr.append(root.val)
             self.treePrint(root.left, arr)
             self.treePrint(root.right, arr)
+        else:
+            arr.append(None)
